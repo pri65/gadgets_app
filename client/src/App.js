@@ -11,9 +11,9 @@ function App() {
     return (
         <BrowserRouter>
         <Routes>
-            <Route path="/" element={} />
-            <Route path="/category/:id" element={} />
-            <Route path="/product/:id" element={} />
+            <Route path="/" element={<Home />} />
+            <Route path="/category/:id" element={<Category />} />
+            <Route path="/product/:id" element={<SingleProduct />} />
         </Routes>
         </BrowserRouter>
     )
